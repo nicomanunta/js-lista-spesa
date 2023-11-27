@@ -17,3 +17,11 @@ while(i<lista_spesa.length){
     i++
     
 }
+lista_spesa.push("latte")
+console.log(lista_spesa)
+
+if(lista_spesa[i]=="latte"){
+    let li = document.createElement("li")
+    li.innerText = "latte (non scremato)"
+    container_spesa.appendChild(li)
+}
