@@ -8,11 +8,12 @@ se ci sta il latte nella lista degli spesa, allora a schermo stampo "latte (non 
 Problema: stampare sulla pagine la lista della spesa
 1- creare un'array con la lista della spesa
 2- trasformare in variabile l'ul con id specificato (spesa), creato nel dom
-3- inserire un ciclo while
-3.a- trasformare in variabile la creazione del tag "li" e aggiungerlo al dom
-3.b- inserire come testo del tag "li" ciò che corrisponde al numero dato dalla variabile "i"
-3.c- aggiungere l'li all'interno dell'ul
-4- aggiungo il latte all' array con la funzione push
+3- aggiungo il latte all' array con la funzione push
+4- inserire un ciclo while
+4.a- trasformare in variabile la creazione del tag "li" e aggiungerlo al dom
 4.1- ? il latte è presente nell'array stampo sulla pagina "latte (non scremato)"
+4.2- : inserire come testo del tag "li" ciò che corrisponde al numero dato dalla variabile "i"
+4.b- aggiungere l'li all'interno dell'ul
+
 
 
