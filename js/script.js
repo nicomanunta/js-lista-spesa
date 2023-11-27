@@ -4,24 +4,28 @@ let lista_spesa = ["pomodori", "carote", "banane", "fettine", "lattuga", "acqua"
 // trasformare in variabile l'ul con id specificato
 let container_spesa = document.getElementById("spesa")
 
-// inserire in un ciclo while
+// aggiungo il latte all' array con la funzione push
+lista_spesa.push("latte")
+
+// inserire un ciclo while
 let i = 0
 while(i<lista_spesa.length){
-    // trasformare in variabile la creazione del tag li e aggiungerlo al dom
-    let li = document.createElement("li")
-    // inserire come testo del tag "li" cio che corrisponde al numero dato da "i"
-    li.innerText = lista_spesa[i]
-    // aggiungere l'li all'interno dell'ul
-    container_spesa.appendChild(li)
-    
-    i++
-    
-}
-lista_spesa.push("latte")
-console.log(lista_spesa)
 
-if(lista_spesa[i]=="latte"){
     let li = document.createElement("li")
-    li.innerText = "latte (non scremato)"
+
+    // se il latte è presente nell'array stampo sulla pagina "latte (non scremato)"
+    if(lista_spesa[i]=="latte"){
+        li.innerText = "latte (non scremato)"
+    }
+    else{
+        // altrimenti inserire come testo del tag "li" cio che corrisponde al numero dato da "i"
+        li.innerText = lista_spesa[i]
+    }
+
     container_spesa.appendChild(li)
+
+    
+    
 }
+
+console.log(lista_spesa)
