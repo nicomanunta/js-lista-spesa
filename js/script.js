@@ -24,6 +24,7 @@ while(i<lista_spesa.length){
 
     container_spesa.appendChild(li)
 
+    i++
     
     
 }
